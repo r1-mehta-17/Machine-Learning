@@ -27,7 +27,7 @@ from sklearn.model_selection import train_test_split
 # run this script.
 train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 0)
 # Define model
-melbourne_model = DecisionTreeRegressor()
+melbourne_model = DecisionTreeRegressor(random_state = 0)
 # Fit model
 melbourne_model.fit(train_X, train_y)
 # get predicted prices on validation data
