@@ -17,6 +17,8 @@ print("Mean of BMI(Body Mass Index) : ",str(bmi_mean))
 print("Median of BMI(Body Mass Index) : ",str(bmi_median))
 print("Correlation Coefficients of body : ")
 print(body_corr)
+# Shape attribute represnts the matrix size, i.e., the number of rows and number of columns
+print(body.shape)
 
 # OUTPUT :
 # Standard Deviation of BMI(Body Mass Index) :  4.860859614817757
@@ -25,3 +27,4 @@ print(body_corr)
 # Correlation Coefficients of body : 
 # [[ 1.         -0.02361888]
 #  [-0.02361888  1.        ]]
+# (500, 2)
